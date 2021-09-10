@@ -1,13 +1,20 @@
 import React from 'react'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter,Switch, Route} from 'react-router-dom'
 import Home from '../containers/Home'
 import AgePredictor from '../containers/AgePredictor'
+import NotFound from '../containers/NotFound'
+import Layout from '../components/Layout'
 
 function App(){
   return(
     <BrowserRouter>
-      <Route exact path="/Home" component={Home} />
-      <Route exact path="/AgePredictor" component={AgePredictor} />
+      <Layout>
+        <Switch>        
+          <Route exact path="/" component={Home} />
+          <Route exact path="/AgePredictor" component={AgePredictor} />
+          <Route component={NotFound} />
+        </Switch>  
+      </Layout>
     </BrowserRouter>
   )
 }

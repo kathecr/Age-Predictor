@@ -5,7 +5,7 @@ import "../assets/styles/App.css";
 function Home() {
   return (
     <React.Fragment>
-      <Header/>
+      Home
     </React.Fragment>
   );
 }
