@@ -1,0 +1,14 @@
+.error__numero {
+  font-size: 200px;
+}
+
+.error__texto {
+  font-size: 50px
+}
+
+.error {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
