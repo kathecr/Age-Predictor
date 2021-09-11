@@ -1,0 +1,18 @@
+.header{
+  align-items: center;
+  background: #8f57fd;
+  color: white;
+  display: flex;
+  height: 50px;
+  top: 0px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.header__icon{
+  margin-left: 10px;
+  width: 200px;
+}
+.header__title{
+  margin: 5px 5px;
+}
