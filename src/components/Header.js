@@ -7,11 +7,12 @@ function Header(){
   return(
     <React.Fragment>
       <header className="header">
-        <Link to={'/'} className = "header">
+        <Link to="/" className = "header">
           <FontAwesomeIcon 
-            className="header__icon"
+            className="header__icon fa-2x"
             icon="clock" 
-            color="#FFF" />
+            color="#FFF" 
+            />
           <h4 className="header__title">AgePredictor</h4>
         </Link>  
       </header>

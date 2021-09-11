@@ -9,7 +9,7 @@ function Home() {
       <div className="home">
       <FontAwesomeIcon 
         icon="clock"
-        className="fa-5x home__icon" 
+        className="fa-10x home__icon" 
         color="#FFF" 
         />
         <h1 className="home__title"> AgePredictor</h1>
@@ -17,7 +17,7 @@ function Home() {
           Aquí podras predecir la edad de una persona con solo su nombre y geolocalización.
         </span>
         <Link to= '/AgePredictor'>
-          <button class="home__button">Predecir</button>  
+          <button class="home__button">Vamos a Predecir!</button>  
         </Link>
       </div>      
     </React.Fragment>
